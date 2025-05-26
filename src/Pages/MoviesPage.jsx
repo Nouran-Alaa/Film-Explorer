@@ -1,5 +1,5 @@
 import React from "react";
-import Movies from "../Components/Movies";
+import Movies from "../components/Movies";
 import { useLoaderData } from "react-router";
 
 const MoviesPage = () => {

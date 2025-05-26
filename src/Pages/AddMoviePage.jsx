@@ -1,5 +1,5 @@
 import React from "react";
-import AddMovie from "../Components/AddMovie";
+import AddMovie from "../components/AddMovie";
 
 const AddMoviePage = () => {
   return (
