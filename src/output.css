@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background: #5f28de;
+  background: linear-gradient(
+    44deg,
+    rgb(103, 44, 241) 0%,
+    rgba(90, 68, 142, 1) 53%,
+    rgb(0, 208, 255) 100%
+  );
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

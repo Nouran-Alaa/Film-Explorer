@@ -1,0 +1,71 @@
+.formWrapper {
+  width: 100%;
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 40px 50px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #1976d2;
+  text-align: center;
+  border-bottom: 4px solid #bbdefb;
+  padding-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.label {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.input {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.input:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.1);
+  background-color: #fff;
+  color: #000;
+}
+
+.button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  background-color: #1976d2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+  margin: auto;
+}
+
+.button:hover {
+  background-color: #1565c0;
+}
